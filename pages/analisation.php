@@ -9,7 +9,6 @@
   <title>Распознавание</title>
 </head>
 <body>
-  <div class="wrapper">
     <header>
       <h1 class="header_title">Анализатор активности</h1>
       <div class="navigation">
@@ -58,6 +57,5 @@
     <footer>
       <h3 class="footer_sign">Разработано командой NSTeam</h3>
     </footer>
-  </div>
 </body>
 </html>
