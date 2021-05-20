@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="../css/analisation.css">
   <title>Распознавание</title>
 </head>
+<script src="../js/analisation.js"></script>
 <body>
     <header>
       <h1 class="header_title">Анализатор активности</h1>
@@ -46,12 +47,12 @@
         </div>
 
         <div class="video">
-          <video></video>
+          <video id="video" width="320" height="240" autoplay="autoplay" ></video>
         </div>
       </div>
 
       <div class="cam-button">
-        <button class="blue-button">Выбрать камеру</button>
+        <button id="permission_btn" class="blue-button">Выбрать камеру</button>
       </div>
     </div>
     <footer>
