@@ -98,6 +98,25 @@ button {
     border-radius: 7px;
 }
 
+button:hover {
+	cursor: pointer;
+}
+
+.about {
+	padding: 40px;
+	text-align: justify;
+    background-color: #2e76c8;
+    width: 60%;
+	max-height: 700px;
+	min-width: 300px;
+	font-size: 2em;
+}
+
+.description_title {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
 .blue-button {
     background-color: #2e76c8;
     color: white;
@@ -123,7 +142,14 @@ footer {
     font-weight: normal;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1200px) {
+
+	div .about {
+		font-size: 1.4em;
+	}
+}
+
+@media (max-width: 620px) {
     .tabs_ref span {
         display: block;
         width: 100px;
@@ -134,4 +160,8 @@ footer {
         font-size: 14px;
         text-overflow: ellipsis;
     }
+	
+	div .about {
+		font-size: 1em;
+	}
 }
