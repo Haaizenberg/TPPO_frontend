@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="../css/authorization.css">
+</head>
+<body>
+    <header>
+        <h1 class="header_title">Анализатор активности</h1>
+    </header>
+    <div class="main">
+        <div class="auth-frame-header">
+            <h2 class="auth-frame-title">Регистрация</h2>
+        </div>
+        <div class="auth-frame-body">
+            <form class="form" action="../js/form-handlers/register.js">
+                <label for="reg_login">Логин</label>
+                <input id="reg_login" type="text" name="login">
+                <label for="reg_password">Пароль</label>
+                <input id="reg_password" type="password" name="password">
+                <label for="email">E-mail</label>
+                <input id="email" type="email" name="email">
+                <button type="submit">Зарегистрироваться</button>
+            </form>
+            <a class="auth-ref" href="login.html">Войти</a>
+        </div>
+    </div>
+    <footer>
+        <h3 class="footer_sign">Разработано командой NSTeam</h3>
+    </footer>
+</body>
+</html>
